@@ -14,16 +14,24 @@ body {
 	font-family: "SF UI Display", sans-serif;
 }
 @font-face {
-	font-family: "oriental";
-	src: url("../fonts/oriental-bold.ttf");
+	font-family: "roboto_b";
+	src: url("../fonts/Roboto-Bold.ttf");
 }
 @font-face {
-	font-family: "oriental-light";
-	src: url("../fonts/oriental.ttf");
+	font-family: "roboto_m";
+	src: url("../fonts/Roboto-Medium.ttf");
 }
 @font-face {
-	font-family: "falmera";
-	src: url("../fonts/Falmera_Pearson.ttf");
+	font-family: "roboto_r";
+	src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+	font-family: "robotoslab";
+	src: url("../fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+@font-face {
+	font-family: "rubik";
+	src: url(../fonts/Rubik-VariableFont_wght.ttf);
 }
 p {
 	font-size: 16px;
@@ -34,7 +42,7 @@ h1 {
 	list-style: 121px;
 }
 h2 {
-	font-family: "oriental";
+	font-family: "robotoslab";
 	font-size: 56px;
 	font-weight: 600;
 	line-height: 66px;
@@ -53,13 +61,17 @@ h5 {
 	font-size: 13px;
 	line-height: 23px;
 }
-a.kigi-btn {
-	background-color: #c23127;
+a.gcmco-btn {
+	background-color: #FF6D12;
 	padding: 10px 30px;
 	color: #fff;
 	text-decoration: none;
 	transition: 0.6s;
 	border-radius: 50px;
+}
+a.gcmco-btn:hover {
+	background-color: #2c2734;
+    color: #fff;
 }
 figure {
 	margin-bottom: 0;
@@ -106,3 +118,173 @@ figure {
 		transform: rotate(360deg);
 	}
 }
+h4.orange_heading {
+    color: #ff6d12;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'roboto_b';
+}
+h2.heading1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #2c2734;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.para_txt {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    /* margin: 0px 0px -20px 0px; */
+    font-size: 18px;
+    line-height: 34px;
+    color: #88858e;
+}
+h4.yellow_heading {
+    color: orange;
+    font-size: 22px;
+    font-family: "roboto_b";
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+	right: 0;
+  }
+/* header css start here */
+header#headerTop .navbar_menus ul.menus {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+header#headerTop .top_header .tophead_left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header#headerTop .top_header .tophead_content {
+    display: flex;
+    align-items: center;
+	gap: 5px;
+}
+header#headerTop .top_header {
+    background: #2C2734;
+	padding: 1rem;
+}
+header#headerTop .top_header .tophead_content span {
+    color: #fff;
+    font-family: "roboto_r", Sans-serif;
+}
+header#headerTop .top_header .tophead_content i {
+    color: #FF6D12;
+}
+header#headerTop .top_header .tophead_content:hover i {
+    color: #fff;
+}
+header#headerTop .top_header .tophead_social i {
+    color: #fff;
+}
+header#headerTop .navbar_menus ul.menus li.menu-items a {
+    font-family: 'roboto_r';
+    color: #000;
+    text-decoration: none;
+
+}
+header#headerTop .navbar_menus ul.menus .dropdown-menu li {
+	position: relative;
+	}
+	header#headerTop .navbar_menus ul.menus .dropdown-menu .dropdown-submenu {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: -7px;
+	}
+	header#headerTop .navbar_menus ul.menus .dropdown-menu .dropdown-submenu-left {
+	right: 100%;
+	left: auto;
+	}
+	header#headerTop .navbar_menus ul.menus .dropdown-menu > li:hover > .dropdown-submenu {
+	display: block;
+	}
+	.dropdown1 .dropdown-toggle:hover ~ .dropdown-menu {
+		display: block;
+		margin-top: 0;
+	}
+	.dropdown1 .dropdown-toggle {
+		/* pointer-events: none; */
+		position: relative;
+	}
+	.dropdown1{
+		position: relative;
+	}
+	header#headerTop .navbar_menus ul.menus li.menu-items .dropdown button.btn {
+		background: transparent;
+		border: 0;
+		color: #000;
+		font-family: 'roboto_r';
+	}
+	header#headerTop .navbar_menus ul.menus li.menu-items .dropdown .btn-secondary.focus,
+	header#headerTop .navbar_menus ul.menus li.menu-items .dropdown .btn-secondary:focus{
+		box-shadow: none;
+	}
+	.main_header {
+		background: #fff;
+		/* position: static; */
+		z-index: 9999;
+	}
+	
+/* header css end here */
+/* helping today section start here */
+.helping_today_content ul {
+	list-style: none;
+	padding-left: 0;
+}
+.helping_today_content ul li i{
+color: #FF7E00;
+font-size: 17px;
+}
+.helping_today_content ul li {
+	color: #54595F;
+	font-size: 20px;
+	margin: 3px 0;
+}
+/* helping today section end here */
+/* in christ name section start here */
+h2.heading2 {
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+.christnamecontent .button-group a {
+    font-size: 18px;
+    margin-top: 1rem;
+    background-color: #FF9D00;
+    padding: 15px 25px 15px 25px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'roboto_b';
+}
+.christnamecontent .button-group {
+    margin: 1rem 0;
+}
+.christnamecontent .para_text2 a p {
+    font-size: 24px;
+    color: #000;
+}
+.christnamecontent .para_text2 a{
+	text-decoration: none;
+}
+.christnamecontent figure img {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.christnamecontent.slick-slide {
+    padding: 0 20px;
+}
+/* in christ name section end here */

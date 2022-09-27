@@ -1,7 +1,153 @@
 <!-- Header Start Here -->
 <header id="headerTop">
-    <div class="container">
+    <div class="top_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="tophead_left">
+                        <div class="tophead_content">
+                            <i class="fa fa-phone"></i>
+                            <span>207-600-7770</span>
+                        </div>
+                        <div class="tophead_content">
+                            <i class="fas fa-mail-bulk"></i>
+                            <span>info@gcmco.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+                <div class="col-md-3">
+                    <div class="tophead_social">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_header" id="mainsecondheader">
+        <div class="container">
 
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="header_logo_dv">
+                        <figure>
+                            <img src="img/home/gcmco_logo.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-8 align-self-center">
+                    <div class="navbar_menus">
+                        <ul class="menus">
+                            <li class="menu-items"><a href="shop.php">Home</a></li>
+                            <li class="menu-items">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        About
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">History</a></li>
+                                        <li><a class="dropdown-item" href="#">GCM TEAM</a></li>
+                                        <li><a class="dropdown-item" href="#">Statement Of Faith</a></li>
+                                        <li><a class="dropdown-item" href="#">Who We Are</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="menu-items"><a href="nutrients.php">Give</a></li>
+                            <li class="menu-items"><a href="kigi-birds.php">Sponsor</a></li>
+                            <li class="menu-items"><a href="planting-mixes.php">Media</a></li>
+                            <!-- <li class="menu-items"><a href="premium-product.php">Get Involved</a></li> -->
+                            <li class="menu-items">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Get Involved
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Where Most Needed</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Women in Distress</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Hungry Kids program</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Drill A Well</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Hope Homes</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                Sponsor a Missionary &raquo;
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-submenu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Lawrence Family</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Peter Odoyo</a>
+                                                </li>
+                                                <!-- <li>
+                                        <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="dropdown-menu dropdown-submenu">
+                                            <li>
+                                                <a class="dropdown-item" href="#">Multi level 1</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Multi level 2</a>
+                                            </li>
+                                        </ul>
+                                    </li> -->
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Joseph Okoth</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Preston Jumba</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Lindenberg Family</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Daniel Balume</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Vivian Mutai</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <!-- <li class="menu-items"><a href="contact.php">Contact</a></li> -->
+                            <li class="menu-items">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Contact
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Contact Information</a></li>
+                                        <li><a class="dropdown-item" href="#">Request a Speaker</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li><i class="fa fa-search"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-1 align-self-center">
+                    <div class="header_right">
+                        <a href="" class="btn gcmco-btn">Give</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </header>
 <!-- Header End Here -->
