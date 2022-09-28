@@ -33,6 +33,14 @@ body {
 	font-family: "rubik";
 	src: url(../fonts/Rubik-VariableFont_wght.ttf);
 }
+@font-face {
+	font-family: "abrilfatface";
+	src: url(../fonts//AbrilFatface-Regular.ttf);
+}
+@font-face {
+	font-family: "shadowlight";
+	src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+}
 p {
 	font-size: 16px;
 }
@@ -132,6 +140,17 @@ h2.heading1 {
     margin: 0;
     margin-bottom: 40px;
 }
+h4.heading2 {
+    font-size: 22px;
+    color: #fff;
+    line-height: 30px;
+    font-family: "roboto_b";
+}
+p.para_txt2 {
+    color: #98959c;
+    font-size: 18px;
+    font-family: "roboto_b";
+}
 .para_txt {
     font-family: "Roboto", Sans-serif;
     font-weight: 500;
@@ -152,6 +171,9 @@ h4.yellow_heading {
 	left: 0;
 	right: 0;
   }
+  hr.light_line {
+    background: #ffffff17;
+}
 /* header css start here */
 header#headerTop .navbar_menus ul.menus {
     list-style: none;
@@ -238,6 +260,90 @@ header#headerTop .navbar_menus ul.menus .dropdown-menu li {
 	}
 	
 /* header css end here */
+/* first section helping them today start here */
+.banner_content p {
+    font-family: "shadowlight";
+    font-size: 35px;
+    font-weight: 600;
+    color: #ff6d12;
+	position: relative;
+}
+.banner_content p::before{
+	content: "";
+	background: url(../img/Home/line.png) no-repeat;
+	position: absolute;
+}
+.banner_carousel {
+    
+}
+.banner_single{
+	position: relative;
+}
+.banner_carousel .banner_content {
+    position: absolute;
+    /* transform: translate(-50%,-50%); */
+    /* -webkit-transform: translate(-100%,-50%); */
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+	background: #00000080;
+	padding:26rem 9rem;
+}
+.banner_carousel .banner_single figure img {
+    width: 100%;
+}
+.banner_carousel .slick-prev, .banner_carousel .slick-next{
+    z-index: 9;
+	/* transform: translate(192px, -32px) rotate(180deg) skew(360deg, 0deg);
+    top: 50%; */
+    /* left: 0px; */
+}
+.banner_carousel .slick-prev{
+    /* left: 20%; */
+}
+.banner_carousel .slick-prev:before{
+	content: "";
+	background: url(../img/Home/arrows.png);
+}
+.banner_carousel .banner_content h1 {
+    z-index: 11;
+    font-family: "abrilfatface";
+    height: auto;
+    color: rgb(255, 109, 18);
+    text-decoration: none;
+    white-space: normal;
+    /* width: 712px; */
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: center;
+    line-height: 120px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 62px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+/* .banner_nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
+/* first section helping them today end here */
+
 /* helping today section start here */
 .helping_today_content ul {
 	list-style: none;
@@ -288,3 +394,428 @@ h2.heading2 {
     padding: 0 20px;
 }
 /* in christ name section end here */
+/* fourth section start here */
+section.fourth_sec.headlthy_section{
+background: url(../img/Home/we_are_helping_bg.png);
+background-attachment: fixed;
+padding: 6rem 0;
+}
+section.fourth_sec.headlthy_section h2.heading1 {
+    color: #FDFDFD;
+}
+ hr.black_liner {
+    background: #000;
+}
+.healthy_leftside {
+    padding-right: 4rem;
+}
+.healthy_rightside figure img {
+    width: 96px;
+}
+.healthy_rightside .healthy_iconimg {
+    width: 140px;
+}
+.healthy_rightside {
+    display: flex;
+    gap: 10px;
+	padding: 1rem 0;
+}
+/* fourth section end here */
+/* fifth section ask question start here */
+section.fifth_sec.ask_ques_sec .accordion-item .accordion-header .accordion-button {
+    background-color: #FF6D12;
+    padding: 25px 30px 24px;
+    border: 1px solid #eae5e3;
+    border-radius: 35px;
+    position: relative;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    font-family: "roboto_b";
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    width: 100%;
+    text-align: left;
+	outline: unset;
+	position: relative;
+	color: #fff;
+}
+section.fifth_sec.ask_ques_sec .accordion-body p {
+    padding: 0 3rem;
+}
+section.fifth_sec.ask_ques_sec {
+    background: url(../img/Home/bg-asked-questions.png) no-repeat;
+    background-position: -8vw 10vh;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+	padding: 6rem 0;
+}
+section.fifth_sec.ask_ques_sec .accordion-item .accordion-header button.accordion-button.collapsed:after{
+	content: "\f067";
+	font-family: "FontAwesome";
+	font-weight: 100;
+	position: absolute;
+	right: 30px;
+	color: #FF6D12;
+}
+section.fifth_sec.ask_ques_sec .accordion-item .accordion-header .accordion-button:after{
+	content: "\f068";
+	font-family: "FontAwesome";
+	font-weight: 100;
+	position: absolute;
+	right: 30px;
+	color: #fff;
+}
+section.fifth_sec.ask_ques_sec .accordion-item .accordion-header button.accordion-button.collapsed{
+	background: #fff;
+	color: #000;
+}
+
+.ask_ques_right figure img.rightbig {
+    margin-top: -12rem;
+    border-radius: 10px;
+}
+.bot_orange_dv p {
+    font-family: "shadowlight";
+    font-size: 35px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.bot_orange_dv {
+    background: #FF9D00;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    width: fit-content;
+    position: absolute;
+    bottom: -24px;
+    right: 2px;
+}
+.ask_ques_right {
+    position: relative;
+}
+/* fifth section ask question end here */
+
+/* sixth section change live start here */
+.changelivecarousel p.quote {
+    margin: 0;
+    font-family: auto;
+    font-size: 60px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #ff9d00;
+    line-height: 75px;
+    text-align: center;
+}
+.changelivecarousel h3.name.thrid_font {
+    color: #ff6d12;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: 'roboto_b';
+}
+.changelivecarousel .client img {
+    min-height: 93px;
+    max-width: 93px;
+    width: 100%;
+    border-radius: 50%;
+    vertical-align: middle;
+    border-style: none;
+	margin-bottom: -33px;
+}
+section.change_live_sec {
+    padding-bottom: 5rem;
+}
+.changelivecarousel .change_content {
+	display: flex  !important;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 40px 0px rgb(6 22 58 / 10%);
+	padding: 0 2rem;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	padding: 2rem;
+}
+.changelivecarousel .change_content:hover{
+	background: #ff9d00;
+}
+
+.changelivecarousel .change_content:hover .para_txt2{
+color: #fff;
+}
+.changelivecarousel .change_content:hover h3.name.thrid_font{
+	color: #fff;
+}
+
+.changelivecarousel .change_content .para_txt2 {
+    font-size: 20px;
+	text-align: center;
+	height: 95px;
+	display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+/* sixth section change live end here */
+
+/* seven section join prayer start here */
+section.seven_sec.join_pray-sec {
+    text-align: center;
+}
+.join_pray_content figure {
+    background: #ff6d12;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.join_pray_content h1 {
+    font-family: "roboto_b";
+    font-size: 60px;
+    color: #fff;
+	margin-bottom: 0;
+}
+section.seven_sec.join_pray-sec {
+    text-align: center;
+    background-image:linear-gradient(179deg, #2C2734, transparent), url(../img/Home/kids-in-class.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	padding: 8rem 0;
+}
+/* seven section join prayer end here */
+
+/* eight section news and articles start here */
+.news_article_sec .addtocartbtn a.btn {
+    font-family: "roboto_b";
+    font-size: 22px;
+    padding: 0;
+    color: #FF6D12 !important;
+}
+.news_article_sec p.para_txt2 {
+    color: #54595F;
+    font-size: 20px;
+    font-family: "roboto_m";
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.news_article_sec .product-img img {
+    width: 100%;
+    height: 300px;
+}
+.news_article_sec .product_desc {
+    padding: 1rem;
+}
+.news_article_sec .addtocartbtn{
+	padding: 0 1rem 1rem 1rem;
+}
+.news_article_sec .button-group a.btn.gcmco-btn {
+    font-size: 20px;
+}
+.news_article_sec {
+    padding: 6rem 0;
+}
+
+/* eight section news and articles end here */
+
+/* help and support ninth section start here */
+.help_people_carousel .slick-slide {
+    padding: 10px;
+}
+.help_people_carousel .slick-slide figure img {
+    border-radius: 10px;
+}
+section.help_people_sec {
+    padding: 0rem 0 5rem;
+}
+/* help and support ninth section end here */
+
+/* Footer Css Start Here */
+footer {
+	padding: 70px 0 30px;
+	background: url(../img/Home/base-footer.jpg);
+  }
+  
+  footer .footer_content ul.social_icons {
+	margin: 0;
+	list-style: none;
+	padding: 10px 0 45px;
+	/* margin-left: 2rem; */
+  }
+  
+  footer .footer_content ul.social_icons li {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 21px;
+  }
+  
+  footer .footer_content ul.social_icons li a i {
+	color: #300c44;
+	font-size: 18px;
+  }
+  
+  footer .footer_content p {
+	/* color: #300c44; */
+	color: #fff;
+	font-family: "roboto_m";
+	/* font-weight: 600; */
+	font-size: 18px;
+	line-height: 36px;
+  }
+  
+  footer .copyright {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid #300c4417;
+	padding: 30px 0 20px;
+	
+  }
+  .footer_bottom{
+	background: #231F29;
+  }
+  
+  footer .copyright p {
+	margin: 0;
+	font-size: 16px;
+	/* color: #300c44; */
+	font-family: "Rubik", sans-serif;
+	/* font-weight: 600; */
+	color: #fff;
+  }
+  
+  footer .copyright .right ul.links {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+  }
+  
+  footer .copyright .right ul.links li {
+	display: inline-block;
+  }
+  
+  footer .copyright .right ul.links li a {
+	color: #000 !important;
+	font-size: 13px;
+  }
+  
+  footer ul li a {
+    font-family: "roboto_m";
+    color: #fff ;
+    /* font-weight: 600; */
+    text-decoration: none !important;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer ul li a:hover{
+	color: #FF6D12;
+}
+footer .footer_content ul.footer-links hr.liner {
+    background: #E5E5E524;
+}
+  footer .copyright .right ul.links li.spacer {
+	margin: 0 5px;
+  }
+  
+  footer .footer_content .head h5 {
+    font-size: 24px;
+    padding-bottom: 15px;
+    font-family: "abrilfatface";
+    color: #FFFFFF;
+	line-height: 40px;
+	font-weight: bold;
+}
+footer ul li a i.fab.fa-facebook-f {
+    background: #465FDD;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color: #fff;
+}
+footer ul li a i.fab.fa-twitter {
+    background: #56B4E5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color: #fff;
+}
+footer ul li a i.fab.fa-instagram {
+    background: #D8423F;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color: #fff;
+}
+
+  footer .footer_content ul.footer-links {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+  }
+  .footer_content .logoDv figure img {
+    margin-top: 3.5rem;
+}
+  
+footer .footer_content ul.footer-links li {
+    margin: 10px 0;
+}
+  
+  footer .footer_content .logoDv {
+	margin: -50px 0 0 -30px;
+  }
+  
+  footer ul li a .tiktok {
+	width: 15px;
+	margin-bottom: 5px;
+  }
+  
+  @media (max-width: 991px) {
+	footer .footer_content {
+	  margin-bottom: 60px;
+	  text-align: center;
+	}
+  
+	footer .copyright {
+	  display: block;
+	  text-align: center;
+	}
+  
+	footer .copyright .left {
+	  padding-bottom: 15px;
+	}
+  }
+  
+  @media (max-width: 575px) {
+	footer {
+	  padding: 30px 0 30px;
+	}
+  
+	footer .footer_content .logoDv {
+	  margin: 0px 0 0 0px;
+	}
+  }
+  
+  /* Footer Css End Here */
