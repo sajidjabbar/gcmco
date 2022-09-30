@@ -146,7 +146,7 @@ h4.heading2 {
     line-height: 30px;
     font-family: "roboto_b";
 }
-p.para_txt2 {
+.para_txt2 {
     color: #98959c;
     font-size: 18px;
     font-family: "roboto_b";
@@ -208,7 +208,15 @@ header#headerTop .top_header .tophead_content:hover i {
     color: #fff;
 }
 header#headerTop .top_header .tophead_social i {
-    color: #fff;
+    color: #54595F;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 5px;
 }
 header#headerTop .navbar_menus ul.menus li.menu-items a {
     font-family: 'roboto_r';
@@ -260,6 +268,49 @@ header#headerTop .navbar_menus ul.menus .dropdown-menu li {
 	}
 	
 /* header css end here */
+
+/* universal section start here */
+section.universal_sec {
+    background: linear-gradient(45deg, #428C9C52, transparent),url(../img/history/universal_banner.jpg) no-repeat;
+    background-size: cover;
+}
+.universal_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25rem;
+}
+.universal_content h1 {
+    color: #fff;
+    font-family: "roboto_m", Sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.universal_content p {
+    color: #fff;
+}
+.universal_content p {
+    color: #fff;
+    font-family: "roboto_r", Sans-serif;
+    font-size: 20px;
+}
+@media(max-width:1440px){
+    .universal_content {
+        padding: 20rem;
+    }
+}
+@media (max-width: 1366px){
+.universal_content {
+    padding: 18rem;
+}
+}
+@media(max-width:1280px){
+    .universal_content {
+        padding: 17rem;
+    }
+}
+/* universal section end here */
 /* first section helping them today start here */
 .banner_content p {
     font-family: "shadowlight";
@@ -269,9 +320,11 @@ header#headerTop .navbar_menus ul.menus .dropdown-menu li {
 	position: relative;
 }
 .banner_content p::before{
-	content: "";
-	background: url(../img/Home/line.png) no-repeat;
+	content: url(../img/Home/line.png) ;
+	/* background: no-repeat; */
 	position: absolute;
+    bottom: -19px !important;
+    left: 0  !important;
 }
 .banner_carousel {
     

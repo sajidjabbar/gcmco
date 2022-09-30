@@ -16,11 +16,11 @@
                     </div>
                 </div>
                 <div class="col-md-5"></div>
-                <div class="col-md-3">
+                <div class="col-md-3 text-right">
                     <div class="tophead_social">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 <div class="col-md-8 align-self-center">
                     <div class="navbar_menus">
                         <ul class="menus">
-                            <li class="menu-items"><a href="shop.php">Home</a></li>
+                            <li class="menu-items"><a href="index.php">Home</a></li>
                             <li class="menu-items">
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button"
@@ -48,10 +48,10 @@
                                         About
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">History</a></li>
-                                        <li><a class="dropdown-item" href="#">GCM TEAM</a></li>
-                                        <li><a class="dropdown-item" href="#">Statement Of Faith</a></li>
-                                        <li><a class="dropdown-item" href="#">Who We Are</a></li>
+                                        <li><a class="dropdown-item" href="history.php">History</a></li>
+                                        <li><a class="dropdown-item" href="gcm_team.php">GCM TEAM</a></li>
+                                        <li><a class="dropdown-item" href="statement_of_faith.php">Statement Of Faith</a></li>
+                                        <li><a class="dropdown-item" href="who_we_are.php">Who We Are</a></li>
                                     </ul>
                                 </div>
                             </li>
