@@ -679,6 +679,16 @@ section.seven_sec.join_pray-sec {
 .news_article_sec .product-img img {
     width: 100%;
     height: 300px;
+    filter: brightness(0.8);
+}
+.news_article_sec .product-img img:hover{
+    filter: brightness(.9);
+    -webkit-filter: brightness(.9);
+    transition: .5;
+    -webkit-transition: .5;
+    -moz-transition: .5;
+    -ms-transition: .5;
+    -o-transition: .5;
 }
 .news_article_sec .product_desc {
     padding: 1rem;
@@ -692,7 +702,9 @@ section.seven_sec.join_pray-sec {
 .news_article_sec {
     padding: 6rem 0;
 }
-
+.product-sec {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+}
 /* eight section news and articles end here */
 
 /* help and support ninth section start here */

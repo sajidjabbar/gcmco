@@ -61,7 +61,19 @@
 
                             <li class="menu-items"><a href="give.php">Give</a></li>
                             <li class="menu-items"><a href="sponsor.php">Sponsor</a></li>
-                            <li class="menu-items"><a href="#">Media</a></li>
+                            <li class="menu-items"><a href="#"></a>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Media
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="news_article.php">News & Articles</a></li>
+                                        <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
+                                        <li><a class="dropdown-item" href="#">Videos</a></li>
+                                    </ul>
+                                </div>
+                            </li>
                             <!-- <li class="menu-items"><a href="premium-product.php">Get Involved</a></li> -->
                             <li class="menu-items">
                                 <div class="dropdown">
