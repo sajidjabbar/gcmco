@@ -32,9 +32,11 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="header_logo_dv">
-                        <figure>
-                            <img src="img/home/gcmco_logo.png" class="img-fluid" alt="">
-                        </figure>
+                        <a href="index.php">
+                            <figure>
+                                <img src="img/home/gcmco_logo.png" class="img-fluid" alt="">
+                            </figure>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-8 align-self-center">
@@ -50,15 +52,16 @@
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <li><a class="dropdown-item" href="history.php">History</a></li>
                                         <li><a class="dropdown-item" href="gcm_team.php">GCM TEAM</a></li>
-                                        <li><a class="dropdown-item" href="statement_of_faith.php">Statement Of Faith</a></li>
+                                        <li><a class="dropdown-item" href="statement_of_faith.php">Statement Of
+                                                Faith</a></li>
                                         <li><a class="dropdown-item" href="who_we_are.php">Who We Are</a></li>
                                     </ul>
                                 </div>
                             </li>
 
-                            <li class="menu-items"><a href="nutrients.php">Give</a></li>
-                            <li class="menu-items"><a href="kigi-birds.php">Sponsor</a></li>
-                            <li class="menu-items"><a href="planting-mixes.php">Media</a></li>
+                            <li class="menu-items"><a href="give.php">Give</a></li>
+                            <li class="menu-items"><a href="sponsor.php">Sponsor</a></li>
+                            <li class="menu-items"><a href="#">Media</a></li>
                             <!-- <li class="menu-items"><a href="premium-product.php">Get Involved</a></li> -->
                             <li class="menu-items">
                                 <div class="dropdown">

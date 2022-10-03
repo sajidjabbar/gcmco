@@ -38,13 +38,13 @@
                                 <h5>Quick Links</h5>
                             </div>
                             <ul class="footer-links">
-                                <li><a href="#">Donate</a></li>
+                                <li><a href="give.php">Donate</a></li>
                                 <li><a href="#">Media</a></li>
                                 <li><a href="#">Contact</a></li>
-                                <li><a href="#">History</a></li>
-                                <li><a href="#">GCM Team</a></li>
-                                <li><a href="#">Statement of faith</a></li>
-                                <li><a href="#">Who We Are</a></li>
+                                <li><a href="history.php">History</a></li>
+                                <li><a href="gcm_team.php">GCM Team</a></li>
+                                <li><a href="statement_of_faith.php">Statement of faith</a></li>
+                                <li><a href="who_we_are.php">Who We Are</a></li>
                             </ul>
                         </div>
                     </div>

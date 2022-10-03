@@ -219,10 +219,10 @@ header#headerTop .top_header .tophead_social i {
     margin-left: 5px;
 }
 header#headerTop .navbar_menus ul.menus li.menu-items a {
-    font-family: 'roboto_r';
-    color: #000;
     text-decoration: none;
-
+    color: #88858E;
+    font-family: 'roboto_r';
+    font-size: 18px;
 }
 header#headerTop .navbar_menus ul.menus .dropdown-menu li {
 	position: relative;
@@ -254,8 +254,9 @@ header#headerTop .navbar_menus ul.menus .dropdown-menu li {
 	header#headerTop .navbar_menus ul.menus li.menu-items .dropdown button.btn {
 		background: transparent;
 		border: 0;
-		color: #000;
+		color: #88858E;
 		font-family: 'roboto_r';
+        font-size: 18px;
 	}
 	header#headerTop .navbar_menus ul.menus li.menu-items .dropdown .btn-secondary.focus,
 	header#headerTop .navbar_menus ul.menus li.menu-items .dropdown .btn-secondary:focus{
@@ -439,10 +440,15 @@ h2.heading2 {
 	text-decoration: none;
 }
 .christnamecontent figure img {
-    height: 400px;
+    height: 360px;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
+.christnamecontent figure img:hover {
+    filter: brightness(0.8);
+    transition: .6s;
+}
+
 .christnamecontent.slick-slide {
     padding: 0 20px;
 }
@@ -617,6 +623,12 @@ color: #fff;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;  
   overflow: hidden;
+}
+.changelivecarousel .slick-list.draggable {
+    padding-bottom: 34% !important;
+}
+.changelivecarousel .change_content .avatar {
+    margin-bottom: -45px;
 }
 /* sixth section change live end here */
 
