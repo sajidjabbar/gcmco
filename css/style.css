@@ -414,9 +414,37 @@ section.universal_sec {
     top: 50%;
     left: 50%;
 } */
+@media(max-width:1440px){
+    .banner_carousel .banner_content{
+        padding: 24rem 9rem;
+    }
+}
+@media(max-width:1366px){
+    .banner_carousel .banner_content{
+        padding: 22rem 9rem;
+    }
+}
+@media(max-width:1280px){
+    .banner_carousel .banner_content{
+        padding: 20rem 9rem;
+    }
+}
+@media(max-width:1200px){
+    .banner_carousel .banner_content{
+        padding: 18rem 6rem;
+    }
+}
+@media(max-width:1100px){
+    .banner_carousel .banner_content{
+        padding: 14rem 6rem;
+    }
+}
 /* first section helping them today end here */
 
 /* helping today section start here */
+section.second_section.helping_today {
+    padding: 3rem 0;
+}
 .helping_today_content ul {
 	list-style: none;
 	padding-left: 0;
