@@ -727,7 +727,7 @@ section.help_people_sec {
 
 /* Footer Css Start Here */
 footer {
-	padding: 70px 0 30px;
+	padding: 70px 0 0px;
 	background: url(../img/home/base-footer.jpg);
   }
   
@@ -763,7 +763,7 @@ footer {
 	align-items: center;
 	justify-content: space-between;
 	border-top: 1px solid #300c4417;
-	padding: 30px 0 20px;
+	padding: 30px 0 30px;
 	
   }
   .footer_bottom{
