@@ -522,6 +522,15 @@ section.fourth_sec.headlthy_section h2.heading1 {
 }
 .healthy_rightside figure img {
     width: 96px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+.healthy_rightside:hover figure img{
+	transform: rotate(360deg);
+    
 }
 .healthy_rightside .healthy_iconimg {
     width: 140px;
