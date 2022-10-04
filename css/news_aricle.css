@@ -6,11 +6,3 @@ section.universal_sec {
 .news_article_sec {
     padding: 2rem 0 6rem;
 }
-.news_article_banner figure img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-    object-position: bottom;
-    filter: brightness(.7);
-    -webkit-filter: brightness(.7);
-}

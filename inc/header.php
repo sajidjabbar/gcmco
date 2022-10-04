@@ -69,7 +69,7 @@
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <li><a class="dropdown-item" href="news_article.php">News & Articles</a></li>
-                                        <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
+                                        <li><a class="dropdown-item" href="gallery.php">Photo Gallery</a></li>
                                         <li><a class="dropdown-item" href="#">Videos</a></li>
                                     </ul>
                                 </div>

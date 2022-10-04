@@ -1,0 +1,22 @@
+.gallery_content {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.gallery_content a figure img {
+    width: 270px;
+    height: 260px;
+    object-fit: cover;
+}
+section.gallery_sec {
+    padding: 1rem 0 3rem;
+}
+section.universal_sec {
+    background: linear-gradient(180deg, #428C9C52, #428C9C52),url(../img/gallery/banner_bg.webp) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.gallery_content a figure img:hover {
+    filter: brightness(0.8);
+    transition: .5s;
+}

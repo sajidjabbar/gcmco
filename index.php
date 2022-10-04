@@ -483,7 +483,7 @@
                     <div class="col-md-4">
                         <div class="product-sec">
                             <div class="product-img">
-                                <a href="#">
+                                <a href="news_article_detail.php">
                                     <img class="img-fluid" src="img/home/homenewsarticles1.jpg" alt="">
                                 </a>
                             </div>
@@ -496,7 +496,7 @@
                                 </a>
                             </div>
                             <div class="addtocartbtn ">
-                                <a class="btn ">
+                                <a href="news_article_detail.php" class="btn ">
                                     READ MORE >>
                                 </a>
                             </div>
@@ -505,7 +505,7 @@
                     <div class="col-md-4">
                         <div class="product-sec">
                             <div class="product-img">
-                                <a href="#">
+                                <a href="news_article_detail.php">
                                     <img class="img-fluid" src="img/home/homenewsarticles2.jpg" alt="">
                                 </a>
                             </div>
@@ -517,7 +517,7 @@
                                 </a>
                             </div>
                             <div class="addtocartbtn ">
-                                <a class="btn ">
+                                <a class="btn " href="news_article_detail.php">
                                     READ MORE >>
                                 </a>
                             </div>
