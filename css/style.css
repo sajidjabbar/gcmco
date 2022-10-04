@@ -321,7 +321,7 @@ section.universal_sec {
 	position: relative;
 }
 .banner_content p::before{
-	content: url(../img/Home/line.png) ;
+	content: url(../img/home/line.png) ;
 	/* background: no-repeat; */
 	position: absolute;
     bottom: -19px !important;
@@ -351,7 +351,7 @@ section.universal_sec {
     align-items: center;
     height: 100%;
 	background: #00000080;
-	padding:26rem 9rem;
+	padding:29rem 9rem;
 }
 .banner_carousel .banner_single figure img {
     width: 100%;
@@ -363,11 +363,29 @@ section.universal_sec {
     /* left: 0px; */
 }
 .banner_carousel .slick-prev{
-    /* left: 20%; */
+    left: 11%;
+    /* background: url(../img/home/arrows.png); */
+    height: 50px;
+    width: 50px;
 }
-.banner_carousel .slick-prev:before{
-	content: "";
-	background: url(../img/Home/arrows.png);
+.banner_carousel .slick-prev:before {
+    content: "\f177 ";
+    font-family: "FontAwesome";
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 26px;
+}
+.banner_carousel .slick-next:before {
+    content: "\f178 ";
+    font-family: "FontAwesome";
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 26px;
+}
+.banner_carousel .slick-next{
+    right: 13%;
 }
 .banner_carousel .banner_content h1 {
     z-index: 11;
