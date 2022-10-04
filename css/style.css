@@ -95,7 +95,7 @@ figure {
 	bottom: 0;
 	z-index: 9999;
 	overflow: hidden;
-	background: #c23127;
+	background: #FF6D12;
 }
 #preloader:before {
 	content: "";
@@ -371,7 +371,7 @@ section.universal_sec {
 .banner_carousel .slick-prev:before {
     content: "\f177 ";
     font-family: "FontAwesome";
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
     padding: 1rem;
     font-size: 26px;
@@ -379,7 +379,7 @@ section.universal_sec {
 .banner_carousel .slick-next:before {
     content: "\f178 ";
     font-family: "FontAwesome";
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
     padding: 1rem;
     font-size: 26px;
