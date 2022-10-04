@@ -14,6 +14,9 @@
             <img src="img/newsarticle/newarticle2.webp" class="img-fluid" alt="">
         </figure>
     </div>
+    <div class="news_article_content">
+
+    </div>
 </section>
 <!-- section news article detail page end here -->
 

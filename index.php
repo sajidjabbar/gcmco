@@ -143,16 +143,16 @@
         </div>
         <div class="christnamecarousel">
             <div class="christnamecontent">
-                <a href="">
+                <a href="#">
                     <figure>
                         <img src="img/home/popularcause1.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="" class="btn">Give</a>
+                    <a href="#" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
-                    <a href="">
+                    <a href="#">
                         <p>
                             Raise funds for clean water
                         </p>
@@ -160,16 +160,16 @@
                 </div>
             </div>
             <div class="christnamecontent">
-                <a href="">
+                <a href="#">
                     <figure>
                         <img src="img/home/popularcause2.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="" class="btn">Give</a>
+                    <a href="#" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
-                    <a href="">
+                    <a href="#">
                         <p>
                             Support a missionary
                         </p>
@@ -177,16 +177,16 @@
                 </div>
             </div>
             <div class="christnamecontent">
-                <a href="">
+                <a href="#">
                     <figure>
                         <img src="img/home/popularcause3.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="" class="btn">Give</a>
+                    <a href="#" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
-                    <a href="">
+                    <a href="#">
                         <p>
                             Give where most needed
                         </p>
@@ -194,16 +194,16 @@
                 </div>
             </div>
             <div class="christnamecontent">
-                <a href="">
+                <a href="#">
                     <figure>
                         <img src="img/home/popularcause4.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="" class="btn">Give</a>
+                    <a href="#" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
-                    <a href="">
+                    <a href="#">
                         <p>
                             Help a Child
                         </p>
@@ -211,16 +211,16 @@
                 </div>
             </div>
             <div class="christnamecontent">
-                <a href="">
+                <a href="#">
                     <figure>
                         <img src="img/home/popularcause5.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="" class="btn">Give</a>
+                    <a href="#" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
-                    <a href="">
+                    <a href="#">
                         <p>
                             Helping Underprivileged Women – Women in Distress
                         </p>
@@ -228,16 +228,16 @@
                 </div>
             </div>
             <div class="christnamecontent">
-                <a href="">
+                <a href="#">
                     <figure>
                         <img src="img/home/popularcause1.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="" class="btn">Give</a>
+                    <a href="#" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
-                    <a href="">
+                    <a href="#">
                         <p>
                             Planting Churches
                         </p>

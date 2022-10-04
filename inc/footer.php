@@ -11,7 +11,7 @@
                 <div class="footer_content">
                     <div class="logoDv">
                         <a href="index.php">
-                            <figure><img src="img/home/GCMCO-FOOTER-logo.png" class="img-fluid"></figure>
+                            <figure><img src="img/home/gcmco-footer-logo.png" class="img-fluid"></figure>
                         </a>
                     </div>
                     <div>
