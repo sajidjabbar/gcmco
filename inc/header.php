@@ -42,7 +42,7 @@
                 <div class="col-md-8 align-self-center">
                     <div class="navbar_menus">
                         <ul class="menus">
-                            <li class="menu-items"><a href="index.php">Home</a></li>
+                            <li class="menu-items active"><a href="index.php">Home</a></li>
                             <li class="menu-items">
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button"

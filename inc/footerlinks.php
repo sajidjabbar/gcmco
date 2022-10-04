@@ -159,5 +159,22 @@ $('.banner_carousel').slick({
     // instead of a settings object
   ]
 });
+
+// active menu start here
+var btnContainer = document.getElementById("mainsecondheader");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("menu-items");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+// active menu end here
+
 </script>
 <!-- Wow Js CDN -->
