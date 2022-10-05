@@ -77,17 +77,18 @@
                             <!-- <li class="menu-items"><a href="premium-product.php">Get Involved</a></li> -->
                             <li class="menu-items">
                                 <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                <!-- onclick="window.location.href='get_involved.php'" -->
+                                    <button  class="btn btn-secondary dropdown-toggle" type="button"
                                         id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         Get Involved
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <li><a class="dropdown-item" href="#">Where Most Needed</a></li>
+                                        <li><a class="dropdown-item" href="where_most_needed.php">Where Most Needed</a></li>
                                         <li>
-                                            <a class="dropdown-item" href="#">Women in Distress</a>
+                                            <a class="dropdown-item" href="women_distress.php">Women in Distress</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="#">Hungry Kids program</a>
+                                            <a class="dropdown-item" href="hungary_kid.php">Hungry Kids program</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="#">Drill A Well</a>

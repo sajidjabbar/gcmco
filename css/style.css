@@ -152,7 +152,7 @@ h4.heading2 {
     font-family: "roboto_b";
 }
 .para_txt {
-    font-family: "Roboto", Sans-serif;
+    font-family: "roboto_r", Sans-serif;
     font-weight: 500;
     /* margin: 0px 0px -20px 0px; */
     font-size: 18px;
@@ -359,6 +359,9 @@ section.universal_sec {
 }
 .banner_carousel .banner_single figure img {
     width: 100%;
+    height: 1000px;
+    object-fit: cover;
+    object-position: center;
 }
 .banner_carousel .slick-prev, .banner_carousel .slick-next{
     z-index: 9;
