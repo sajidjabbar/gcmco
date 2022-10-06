@@ -224,6 +224,28 @@ header#headerTop .navbar_menus ul.menus li.menu-items a {
     font-family: 'roboto_r';
     font-size: 18px;
 }
+div#headermodal .modal-dialog {
+    max-width: 100%;
+    margin: auto;
+}
+div#headermodal .modal-header button.btn-close {
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+header#headerTop .navbar_menus ul.menus li button {
+    border: 0;
+    background: transparent;
+    color: #88858E;
+        font-family: "roboto_r";
+}
+header#headerTop .navbar_menus ul.menus li button:focus-visible {
+    box-shadow: none;
+    border: 0;
+    outline: 0;
+}
+header#headerTop .navbar_menus ul.menus li button:focus {
+    outline: 0;
+}
 /* header#headerTop .navbar_menus ul.menus li.menu-items.active a{
     background: #FF6D12;
     color: #fff;
@@ -255,13 +277,20 @@ header#headerTop .navbar_menus ul.menus .dropdown-menu li {
 	.dropdown1{
 		position: relative;
 	}
-	header#headerTop .navbar_menus ul.menus li.menu-items .dropdown button.btn {
+	/* header#headerTop .navbar_menus ul.menus li.menu-items .dropdown button.btn {
 		background: transparent;
 		border: 0;
 		color: #88858E;
 		font-family: 'roboto_r';
         font-size: 18px;
 	}
+    header#headerTop .navbar_menus ul.menus li.menu-items button.btn:hover ~ .dropdown-menu {
+        display:block;
+    } */
+    header#headerTop .navbar_menus ul.menus li.menu-items .dropdown-menu{
+        /* display:none; */
+        margin-top: 0;
+    }
 	header#headerTop .navbar_menus ul.menus li.menu-items .dropdown .btn-secondary.focus,
 	header#headerTop .navbar_menus ul.menus li.menu-items .dropdown .btn-secondary:focus{
 		box-shadow: none;
@@ -269,7 +298,7 @@ header#headerTop .navbar_menus ul.menus .dropdown-menu li {
 	.main_header {
 		background: #fff;
 		/* position: static; */
-		z-index: 9999;
+		z-index: 9;
 	}
 	
 /* header css end here */
@@ -936,7 +965,56 @@ footer .footer_content ul.footer-links li {
 	width: 15px;
 	margin-bottom: 5px;
   }
+  /* back to top button start here */
+  #backtotop {
+    display: inline-block;
+    background-color: #FF6D12;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 80px;
+    right: 8px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #backtotop::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #backtotop:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #backtotop:active {
+    background-color: #555;
+  }
+  #backtotop.show {
+    opacity: 1;
+    visibility: visible;
+  }
   
+  /* Styles for the content section */
+  
+  
+  @media (min-width: 500px) {
+    
+    #backtotop {
+      margin: 30px;
+    }
+  }
+  
+  /* back to top button end here */
+
   @media (max-width: 991px) {
 	footer .footer_content {
 	  margin-bottom: 60px;

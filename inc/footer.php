@@ -39,8 +39,8 @@
                             </div>
                             <ul class="footer-links">
                                 <li><a href="give.php">Donate</a></li>
-                                <li><a href="#">Media</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="news_article.php">Media</a></li>
+                                <li><a href="contact_information.php">Contact</a></li>
                                 <li><a href="history.php">History</a></li>
                                 <li><a href="gcm_team.php">GCM Team</a></li>
                                 <li><a href="statement_of_faith.php">Statement of faith</a></li>
@@ -74,7 +74,7 @@
                                     alerts, and Volunteer opportunities
                                 </p>
                                 <div>
-                                    <a href="" class="gcmco-btn">Click to Sign Up</a>
+                                    <a href="signup.php" class="gcmco-btn">Click to Sign Up</a>
                                 </div>
                             </div>
                             <!-- <ul class="footer-links">
@@ -109,6 +109,7 @@
             </div>
         </div>
     </div>
+    <a id="backtotop"></a>
 </footer>
 <!-- Footer End Here -->
 

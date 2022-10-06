@@ -77,13 +77,14 @@
                             <!-- <li class="menu-items"><a href="premium-product.php">Get Involved</a></li> -->
                             <li class="menu-items">
                                 <div class="dropdown">
-                                <!-- onclick="window.location.href='get_involved.php'" -->
-                                    <button  class="btn btn-secondary dropdown-toggle" type="button"
+                                    <!-- onclick="window.location.href='get_involved.php'" -->
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
                                         id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         Get Involved
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <li><a class="dropdown-item" href="where_most_needed.php">Where Most Needed</a></li>
+                                        <li><a class="dropdown-item" href="where_most_needed.php">Where Most Needed</a>
+                                        </li>
                                         <li>
                                             <a class="dropdown-item" href="women_distress.php">Women in Distress</a>
                                         </li>
@@ -91,21 +92,21 @@
                                             <a class="dropdown-item" href="hungary_kid.php">Hungry Kids program</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="#">Drill A Well</a>
+                                            <a class="dropdown-item" href="women_distress.php">Drill A Well</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="#">Hope Homes</a>
+                                            <a class="dropdown-item" href="hungary_kid.php">Hope Homes</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="#">
+                                            <a class="dropdown-item" href="women_distress.php">
                                                 Sponsor a Missionary &raquo;
                                             </a>
                                             <ul class="dropdown-menu dropdown-submenu">
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Lawrence Family</a>
+                                                    <a class="dropdown-item" href="hungary_kid.php">Lawrence Family</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Peter Odoyo</a>
+                                                    <a class="dropdown-item" href="women_distress.php">Peter Odoyo</a>
                                                 </li>
                                                 <!-- <li>
                                         <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
@@ -119,19 +120,19 @@
                                         </ul>
                                     </li> -->
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Joseph Okoth</a>
+                                                    <a class="dropdown-item" href="hungary_kid.php">Joseph Okoth</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Preston Jumba</a>
+                                                    <a class="dropdown-item" href="women_distress.php">Preston Jumba</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Lindenberg Family</a>
+                                                    <a class="dropdown-item" href="hungary_kid.php">Lindenberg Family</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Daniel Balume</a>
+                                                    <a class="dropdown-item" href="women_distress.php">Daniel Balume</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Vivian Mutai</a>
+                                                    <a class="dropdown-item" href="hungary_kid.php">Vivian Mutai</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -147,19 +148,22 @@
                                         Contact
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Contact Information</a></li>
-                                        <li><a class="dropdown-item" href="#">Request a Speaker</a></li>
+                                        <li><a class="dropdown-item" href="contact_information.php">Contact
+                                                Information</a></li>
+                                        <li><a class="dropdown-item" href="request_speaker.php">Request a Speaker</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
 
-                            <li><i class="fa fa-search"></i></li>
+                            <li><button data-bs-toggle="modal" data-bs-target="#headermodal"><i
+                                        class="fa fa-search"></i></button></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-1 align-self-center">
                     <div class="header_right">
-                        <a href="" class="btn gcmco-btn">Give</a>
+                        <a href="where_most_needed.php" class="btn gcmco-btn">Give</a>
                     </div>
                 </div>
             </div>
@@ -187,3 +191,24 @@
     </ul>
 </div> -->
 <!-- Mobile Header End Here -->
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="headermodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="btn-close btn" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body">
+                <div>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
