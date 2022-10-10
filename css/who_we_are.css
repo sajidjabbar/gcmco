@@ -110,6 +110,27 @@ section.how_get_sec {
     }
     
 }
+@media(max-width:1199px){
+    h4.orange_heading{
+        font-size: 32px;
+    }
+    h2.heading1{
+        font-size: 40px;
+    }
+    section.help_the_people_sec {
+        padding: 2rem;
+    }
+    .help_people_icon .para_txt2{
+        font-size: 16px;
+    }
+    .help_people_icon{
+        width: 80px;
+        height: 130px;
+    }
+    .help_people_icon i {
+        font-size: 40px;
+    }
+}
 @media(max-width:1100px){
     section.help_the_people_sec{
         padding: 0rem;

@@ -23,3 +23,8 @@ section.universal_sec {
 section.state_faith_sec {
     padding: 4rem 0;
 }
+@media(max-width:1199px){
+    .state_faith_content h2{
+        font-size: 40px;
+    }
+}

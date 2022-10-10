@@ -46,7 +46,7 @@
                             <li class="menu-items">
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button"
-                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        id="dropdownMenuButton1">
                                         About
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -64,7 +64,7 @@
                             <li class="menu-items"><a href="#"></a>
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button"
-                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        id="dropdownMenuButton1">
                                         Media
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -78,8 +78,8 @@
                             <li class="menu-items">
                                 <div class="dropdown">
                                     <!-- onclick="window.location.href='get_involved.php'" -->
-                                    <button class="btn btn-secondary dropdown-toggle" type="button"
-                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button onclick="window.location.href='get_involved.php'" class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton1">
                                         Get Involved
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -144,7 +144,7 @@
                             <li class="menu-items">
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button"
-                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        id="dropdownMenuButton1">
                                         Contact
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">

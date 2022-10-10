@@ -277,6 +277,19 @@ header#headerTop .navbar_menus ul.menus .dropdown-menu li {
 	.dropdown1{
 		position: relative;
 	}
+    .dropdown:hover .dropdown-menu,.dropdown-menu:hover, .button:hover .dropdown {
+        display: block;
+        margin-top: 0;
+        transition: 3s ease-in-out;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        will-change: transform;
+        transform: translate3d(0px, 24px, 0px) ;
+        min-width: 119px;
+        padding: 13px 10px 13px 10px;
+        border-radius: 0px;
+     } 
 	/* header#headerTop .navbar_menus ul.menus li.menu-items .dropdown button.btn {
 		background: transparent;
 		border: 0;
@@ -576,6 +589,7 @@ section.fourth_sec.headlthy_section h2.heading1 {
     gap: 10px;
 	padding: 1rem 0;
 }
+
 /* fourth section end here */
 /* fifth section ask question start here */
 section.fifth_sec.ask_ques_sec .accordion-item .accordion-header .accordion-button {
@@ -810,6 +824,9 @@ section.seven_sec.join_pray-sec {
 }
 .help_people_carousel .slick-slide figure img {
     border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 section.help_people_sec {
     padding: 0rem 0 5rem;
@@ -975,7 +992,7 @@ footer .footer_content ul.footer-links li {
     border-radius: 4px;
     position: fixed;
     bottom: 80px;
-    right: 8px;
+    right: 0px;
     transition: background-color .3s, 
       opacity .5s, visibility .5s;
     opacity: 0;
@@ -1042,3 +1059,32 @@ footer .footer_content ul.footer-links li {
   }
   
   /* Footer Css End Here */
+
+  /* responsive start here */
+  @media(max-width:1199px){
+    section.fourth_sec.headlthy_section h2.heading1{
+        font-size: 40px;
+    }
+    .bot_orange_dv{
+        padding: 1rem;
+    }
+    .bot_orange_dv p{
+        font-size: 28px;
+    }
+    .bot_orange_dv figure img {
+        width: 80px;
+    }
+    .changelivecarousel .slick-list.draggable {
+        padding-bottom: 42% !important;
+    }
+    .join_pray_content h1{
+        font-size: 40px;
+    }
+    .help_people_carousel .slick-slide figure img{
+        height: 220px;
+    }
+    .banner_carousel .banner_content h1{
+        font-size: 50px;
+    }
+}
+  /* responsive end here */

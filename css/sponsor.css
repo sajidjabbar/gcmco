@@ -47,3 +47,8 @@ section.sponsor_sec .sponsor_btn a.gcmco-btn:hover{
 section.sponsor_sec {
     padding: 4rem 0;
 }
+@media(max-width:1199px){
+    section.sponsor_sec .sponsor_btn a.gcmco-btn{
+        padding: 25px 30px 25px 30px;
+    }
+}

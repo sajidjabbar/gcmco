@@ -175,3 +175,11 @@ section.where_most_sec p.para_txt2 {
     margin-bottom: 1rem;
     text-align: left;
 }
+@media(max-width:1199px){
+    section.where_most_sec .boxx{
+        padding: 15px 30px;
+    }
+    section.where_most_sec input.all_package:checked + label .boxx{
+        padding: 15px 60px;
+    }
+}
