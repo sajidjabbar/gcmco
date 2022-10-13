@@ -57,7 +57,7 @@
                 <div class="black_select text-center">
                     <div class="row">
 
-                        <div class="col-md-4 p-1">
+                        <div class="col-md-4">
                             <div class="black_box">
                                 <input type="radio" name="the_package2" hidden class="all_package" id="no6" checked>
                                 <label for="no6">
@@ -67,7 +67,7 @@
                                 </label>
                             </div>
                         </div>
-                        <div class="col-md-4 p-1">
+                        <div class="col-md-4">
                             <div class="black_box">
                                 <input type="radio" name="the_package2" hidden class="all_package" id="no7">
                                 <label for="no7">
@@ -77,7 +77,7 @@
                                 </label>
                             </div>
                         </div>
-                        <div class="col-md-4 p-1">
+                        <div class="col-md-4">
                             <div class="black_box">
                                 <input type="radio" name="the_package2" hidden class="all_package" id="no8">
                                 <label for="no8">
@@ -87,7 +87,7 @@
                                 </label>
                             </div>
                         </div>
-                        <div class="col-md-4 p-1">
+                        <div class="col-md-4">
                             <div class="black_box">
                                 <input type="radio" name="the_package2" hidden class="all_package" id="no9">
                                 <label for="no9">
@@ -97,7 +97,7 @@
                                 </label>
                             </div>
                         </div>
-                        <div class="col-md-4 p-1">
+                        <div class="col-md-4">
                             <div class="black_box">
                                 <input type="radio" name="the_package2" hidden class="all_package" id="no10">
                                 <label for="no10">
@@ -107,7 +107,7 @@
                                 </label>
                             </div>
                         </div>
-                        <div class="col-md-4 p-1">
+                        <div class="col-md-4">
                             <div class="black_box">
                                 <input type="radio" name="the_package2" hidden class="all_package" id="no11">
                                 <label for="no11">

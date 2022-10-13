@@ -50,7 +50,7 @@ section.where_most_sec .boxx {
     padding: 20px 47px;
     text-align: center;
     border: 1px solid #000;
-    font-family: "rubik";
+    font-family: "roboto_b";
 }
 
 section.where_most_sec label {
@@ -65,7 +65,7 @@ section.where_most_sec input.all_package:checked + label .boxx {
     padding: 20px 90px;
     border: 1px solid grey;
     color: #fff;
-    font-family: "roboto_m";
+    font-family: "roboto_b";
 }
 .where_most_content {
     padding: 0px 100px 0px 100px;
@@ -162,7 +162,9 @@ section.where_most_sec .black_select .black_box label .boxx span input[type="tex
 section.where_most_sec {
     padding: 1rem 0;
 }
-
+section.where_most_need_page .where_most_content .black_select .col-md-4 {
+    padding: 1px !important;
+}
 
 
 
