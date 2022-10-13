@@ -4,7 +4,7 @@ section.universal_sec {
 }
 .gcm_team_content a {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     color: #000;
     text-decoration: none;
@@ -14,7 +14,7 @@ section.universal_sec {
 }
 .gcm_team_content p {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     color: #ff6d12;
     height: 70px;
@@ -72,12 +72,15 @@ section.gcm_team_sec {
         height: 270px;
     }
     .gcm_team_content a{
-        font-size: 16px;
+        font-size: 12px;
     }
     .gcm_team_content p{
-        font-size: 16px;
+        font-size: 12px;
     }
     .gcm_team_content p{
         height: 70px;
+    }
+    .gcm_teams figure{
+        height: 270px;
     }
 }

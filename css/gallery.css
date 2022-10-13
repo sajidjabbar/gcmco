@@ -5,7 +5,7 @@
 }
 .gallery_content a figure img {
     width: 270px;
-    height: 260px;
+    height: 200px;
     object-fit: cover;
 }
 section.gallery_sec {
@@ -19,4 +19,13 @@ section.universal_sec {
 .gallery_content a figure img:hover {
     filter: brightness(0.8);
     transition: .5s;
+}
+.gallery_content a {
+    padding: 0;
+    max-width: 270px;
+    margin-top: 0 !important;
+}
+.uk-lightbox-items>.uk-active img {
+    width: 1200px;
+    height: 600px;
 }

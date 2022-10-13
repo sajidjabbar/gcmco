@@ -42,7 +42,7 @@
                 <div class="col-md-8 align-self-center">
                     <div class="navbar_menus">
                         <ul class="menus">
-                            <li class="menu-items active"><a href="index.php">Home</a></li>
+                            <li class="menu-items"><a class="menu_anc" href="index.php">Home</a></li>
                             <li class="menu-items">
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button"
@@ -50,27 +50,27 @@
                                         About
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="history.php">History</a></li>
-                                        <li><a class="dropdown-item" href="gcm_team.php">GCM TEAM</a></li>
-                                        <li><a class="dropdown-item" href="statement_of_faith.php">Statement Of
+                                        <li><a class="dropdown-item the_drop_menu" href="history.php">History</a></li>
+                                        <li><a class="dropdown-item the_drop_menu" href="gcm_team.php">GCM TEAM</a></li>
+                                        <li><a class="dropdown-item the_drop_menu" href="statement_of_faith.php">Statement Of
                                                 Faith</a></li>
-                                        <li><a class="dropdown-item" href="who_we_are.php">Who We Are</a></li>
+                                        <li><a class="dropdown-item the_drop_menu" href="who_we_are.php">Who We Are</a></li>
                                     </ul>
                                 </div>
                             </li>
 
-                            <li class="menu-items"><a href="give.php">Give</a></li>
-                            <li class="menu-items"><a href="sponsor.php">Sponsor</a></li>
-                            <li class="menu-items"><a href="#"></a>
+                            <li class="menu-items"><a class="menu_anc" href="give.php">Give</a></li>
+                            <li class="menu-items"><a class="menu_anc" href="sponsor.php">Sponsor</a></li>
+                            <li class="menu-items"><a class="" href="#"></a>
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button"
                                         id="dropdownMenuButton1">
                                         Media
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="news_article.php">News & Articles</a></li>
-                                        <li><a class="dropdown-item" href="gallery.php">Photo Gallery</a></li>
-                                        <li><a class="dropdown-item" href="#">Videos</a></li>
+                                        <li><a class="dropdown-item the_drop_menu" href="news_article.php">News & Articles</a></li>
+                                        <li><a class="dropdown-item the_drop_menu" href="gallery.php">Photo Gallery</a></li>
+                                        <li><a class="dropdown-item the_drop_menu" href="#">Videos</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -83,56 +83,45 @@
                                         Get Involved
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <li><a class="dropdown-item" href="where_most_needed.php">Where Most Needed</a>
+                                        <li><a class="dropdown-item the_drop_menu" href="where_most_needed.php">Where Most Needed</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="women_distress.php">Women in Distress</a>
+                                            <a class="dropdown-item the_drop_menu" href="women_distress.php">Women in Distress</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="hungary_kid.php">Hungry Kids program</a>
+                                            <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Hungry Kids program</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="women_distress.php">Drill A Well</a>
+                                            <a class="dropdown-item the_drop_menu" href="women_distress.php">Drill A Well</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="hungary_kid.php">Hope Homes</a>
+                                            <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Hope Homes</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="women_distress.php">
+                                            <a class="dropdown-item the_drop_menu" href="women_distress.php">
                                                 Sponsor a Missionary &raquo;
                                             </a>
                                             <ul class="dropdown-menu dropdown-submenu">
                                                 <li>
-                                                    <a class="dropdown-item" href="hungary_kid.php">Lawrence Family</a>
+                                                    <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Lawrence Family</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="women_distress.php">Peter Odoyo</a>
-                                                </li>
-                                                <!-- <li>
-                                        <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="dropdown-menu dropdown-submenu">
-                                            <li>
-                                                <a class="dropdown-item" href="#">Multi level 1</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Multi level 2</a>
-                                            </li>
-                                        </ul>
-                                    </li> -->
-                                                <li>
-                                                    <a class="dropdown-item" href="hungary_kid.php">Joseph Okoth</a>
+                                                    <a class="dropdown-item the_drop_menu" href="women_distress.php">Peter Odoyo</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="women_distress.php">Preston Jumba</a>
+                                                    <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Joseph Okoth</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="hungary_kid.php">Lindenberg Family</a>
+                                                    <a class="dropdown-item the_drop_menu" href="women_distress.php">Preston Jumba</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="women_distress.php">Daniel Balume</a>
+                                                    <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Lindenberg Family</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="hungary_kid.php">Vivian Mutai</a>
+                                                    <a class="dropdown-item the_drop_menu" href="women_distress.php">Daniel Balume</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Vivian Mutai</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -148,9 +137,9 @@
                                         Contact
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="contact_information.php">Contact
+                                        <li><a class="dropdown-item the_drop_menu" href="contact_information.php">Contact
                                                 Information</a></li>
-                                        <li><a class="dropdown-item" href="request_speaker.php">Request a Speaker</a>
+                                        <li><a class="dropdown-item the_drop_menu" href="request_speaker.php">Request a Speaker</a>
                                         </li>
                                     </ul>
                                 </div>

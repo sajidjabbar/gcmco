@@ -95,7 +95,7 @@
                 <div class="helping_today_content">
                     <hr class="black_liner">
                     <h4 class="orange_heading">Helping Today</h4>
-                    <h2 class="heading1">Together we can Help those in need in Christ’s name.</h2>
+                    <h2 class="heading1">Together we can <br> Help those in need in Christ’s name.</h2>
                     <p class="para_txt">
                         Africa is full of children who need your help. Help with food, clothing, housing and everyday
                         basic needs.
@@ -143,13 +143,13 @@
         </div>
         <div class="christnamecarousel">
             <div class="christnamecontent">
-                <a href="#">
+                <a href="giveus_form.php">
                     <figure>
                         <img src="img/home/popularcause1.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="#" class="btn">Give</a>
+                    <a href="giveus_form.php" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
                     <a href="#">
@@ -160,13 +160,13 @@
                 </div>
             </div>
             <div class="christnamecontent">
-                <a href="#">
+                <a href="giveus_form.php">
                     <figure>
                         <img src="img/home/popularcause2.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="#" class="btn">Give</a>
+                    <a href="giveus_form.php" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
                     <a href="#">
@@ -183,7 +183,7 @@
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="#" class="btn">Give</a>
+                    <a href="giveus_form.php" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
                     <a href="#">
@@ -194,13 +194,13 @@
                 </div>
             </div>
             <div class="christnamecontent">
-                <a href="#">
+                <a href="giveus_form.php">
                     <figure>
                         <img src="img/home/popularcause4.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="#" class="btn">Give</a>
+                    <a href="giveus_form.php" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
                     <a href="#">
@@ -211,13 +211,13 @@
                 </div>
             </div>
             <div class="christnamecontent">
-                <a href="#">
+                <a href="giveus_form.php">
                     <figure>
                         <img src="img/home/popularcause5.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="#" class="btn">Give</a>
+                    <a href="giveus_form.php" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
                     <a href="#">
@@ -228,13 +228,13 @@
                 </div>
             </div>
             <div class="christnamecontent">
-                <a href="#">
+                <a href="giveus_form.php">
                     <figure>
                         <img src="img/home/popularcause1.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
-                    <a href="#" class="btn">Give</a>
+                    <a href="giveus_form.php" class="btn">Give</a>
                 </div>
                 <div class="para_text2">
                     <a href="#">
@@ -284,9 +284,9 @@
                         </figure>
                     </div>
                     <div>
-                        <h4 class="heading2">Healthy Food</h4>
+                        <h4 class="heading2">Clean Water</h4>
                         <p class="para_txt2">
-                            Millions of people in Africa are starving, so we’re working to feed the hungry.
+                        Our goal is to supply clean water to people who can not access clean safe water.
                         </p>
                     </div>
                 </div>
@@ -298,9 +298,9 @@
                         </figure>
                     </div>
                     <div>
-                        <h4 class="heading2">Healthy Food</h4>
+                        <h4 class="heading2">Hope Homes</h4>
                         <p class="para_txt2">
-                            Millions of people in Africa are starving, so we’re working to feed the hungry.
+                        Our Hope Homes project rescues kids with no family. We give them a home and the Hope of Christ.
                         </p>
                     </div>
                 </div>
