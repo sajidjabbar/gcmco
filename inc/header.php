@@ -205,7 +205,7 @@
 </button> -->
 
 <!-- Modal -->
-<div class="modal fade" id="headermodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class=" search_ico_modal modal fade" id="headermodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <!-- <div class="modal-header">
