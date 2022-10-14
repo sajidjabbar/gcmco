@@ -128,10 +128,10 @@
                     <form action="">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="">
+                                <div class="form-group">
                                     <div class="input-group mb-2 mt-3">
                                         <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                            <div class="input-group-text"><i class="far fa-envelope"></i></div>
                                         </div>
                                         <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Email *">
                                     </div>
@@ -204,19 +204,24 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="">Routing number</label>
-                                        <input type="number" class="form-control" id="inputCardno" name="inputCardno" placeholder="Routing number">
+                                        <div class="form-group">
+
+                                            <label for="">Routing number</label>
+                                            <input type="number" class="form-control" id="inputCardno" name="inputCardno" placeholder="Routing number">
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="">Account number</label>
-                                        <input type="number" class="form-control" id="inputCardno" name="inputCardno" placeholder="Account number">
+                                        <div class="form-group">
+
+                                            <label for="">Account number</label>
+                                            <input type="number" class="form-control" id="inputCardno" name="inputCardno" placeholder="Account number">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 mt-5">
+                            <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for=""></label>
-                                    <textarea class="form-control" maxlength="255" name="description" id="donation_comments"></textarea>
+                                    <textarea class="form-control texts_area" maxlength="255" name="description" id="donation_comments" rows="3"></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12" id="the_card">

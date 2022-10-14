@@ -52,9 +52,11 @@
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <li><a class="dropdown-item the_drop_menu" href="history.php">History</a></li>
                                         <li><a class="dropdown-item the_drop_menu" href="gcm_team.php">GCM TEAM</a></li>
-                                        <li><a class="dropdown-item the_drop_menu" href="statement_of_faith.php">Statement Of
+                                        <li><a class="dropdown-item the_drop_menu"
+                                                href="statement_of_faith.php">Statement Of
                                                 Faith</a></li>
-                                        <li><a class="dropdown-item the_drop_menu" href="who_we_are.php">Who We Are</a></li>
+                                        <li><a class="dropdown-item the_drop_menu" href="who_we_are.php">Who We Are</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
@@ -68,8 +70,10 @@
                                         Media
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item the_drop_menu" href="news_article.php">News & Articles</a></li>
-                                        <li><a class="dropdown-item the_drop_menu" href="gallery.php">Photo Gallery</a></li>
+                                        <li><a class="dropdown-item the_drop_menu" href="news_article.php">News &
+                                                Articles</a></li>
+                                        <li><a class="dropdown-item the_drop_menu" href="gallery.php">Photo Gallery</a>
+                                        </li>
                                         <li><a class="dropdown-item the_drop_menu" href="#">Videos</a></li>
                                     </ul>
                                 </div>
@@ -78,21 +82,26 @@
                             <li class="menu-items">
                                 <div class="dropdown">
                                     <!-- onclick="window.location.href='get_involved.php'" -->
-                                    <button onclick="window.location.href='get_involved.php'" class="btn btn-secondary dropdown-toggle" type="button"
+                                    <button onclick="window.location.href='get_involved.php'"
+                                        class="btn btn-secondary dropdown-toggle" type="button"
                                         id="dropdownMenuButton1">
                                         Get Involved
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <li><a class="dropdown-item the_drop_menu" href="where_most_needed.php">Where Most Needed</a>
+                                        <li><a class="dropdown-item the_drop_menu" href="where_most_needed.php">Where
+                                                Most Needed</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item the_drop_menu" href="women_distress.php">Women in Distress</a>
+                                            <a class="dropdown-item the_drop_menu" href="women_distress.php">Women in
+                                                Distress</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Hungry Kids program</a>
+                                            <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Hungry Kids
+                                                program</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item the_drop_menu" href="women_distress.php">Drill A Well</a>
+                                            <a class="dropdown-item the_drop_menu" href="women_distress.php">Drill A
+                                                Well</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Hope Homes</a>
@@ -103,25 +112,32 @@
                                             </a>
                                             <ul class="dropdown-menu dropdown-submenu">
                                                 <li>
-                                                    <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Lawrence Family</a>
+                                                    <a class="dropdown-item the_drop_menu"
+                                                        href="hungary_kid.php">Lawrence Family</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item the_drop_menu" href="women_distress.php">Peter Odoyo</a>
+                                                    <a class="dropdown-item the_drop_menu"
+                                                        href="women_distress.php">Peter Odoyo</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Joseph Okoth</a>
+                                                    <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Joseph
+                                                        Okoth</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item the_drop_menu" href="women_distress.php">Preston Jumba</a>
+                                                    <a class="dropdown-item the_drop_menu"
+                                                        href="women_distress.php">Preston Jumba</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Lindenberg Family</a>
+                                                    <a class="dropdown-item the_drop_menu"
+                                                        href="hungary_kid.php">Lindenberg Family</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item the_drop_menu" href="women_distress.php">Daniel Balume</a>
+                                                    <a class="dropdown-item the_drop_menu"
+                                                        href="women_distress.php">Daniel Balume</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Vivian Mutai</a>
+                                                    <a class="dropdown-item the_drop_menu" href="hungary_kid.php">Vivian
+                                                        Mutai</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -137,9 +153,11 @@
                                         Contact
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item the_drop_menu" href="contact_information.php">Contact
+                                        <li><a class="dropdown-item the_drop_menu"
+                                                href="contact_information.php">Contact
                                                 Information</a></li>
-                                        <li><a class="dropdown-item the_drop_menu" href="request_speaker.php">Request a Speaker</a>
+                                        <li><a class="dropdown-item the_drop_menu" href="request_speaker.php">Request a
+                                                Speaker</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -159,6 +177,7 @@
         </div>
     </div>
 </header>
+<div class="open-accessibility-text"></div>
 <!-- Header End Here -->
 
 <!-- Mobile Header Start Here -->
@@ -189,13 +208,17 @@
 <div class="modal fade" id="headermodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
+            <!-- <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel"></h5>
                 <button type="button" class="btn-close btn" data-bs-dismiss="modal" aria-label="Close">X</button>
-            </div>
+            </div> -->
             <div class="modal-body">
-                <div>
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <span class="btn_close icon_close" data-bs-dismiss="modal" aria-label="Close"></span>
+                <div class="container">
+                    <div class="form-group">
+                        <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                        <button type="button" class="btn btn-outline-primary">search</button>
+                    </div>
                 </div>
             </div>
         </div>

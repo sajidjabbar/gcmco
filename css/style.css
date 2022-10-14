@@ -225,6 +225,9 @@ header#headerTop .navbar_menus ul.menus li.menu-items a {
     font-family: 'roboto_r';
     font-size: 17px;
 }
+header#headerTop .navbar_menus ul.menus li.menu-items a.dropdown-item.the_drop_menu {
+    padding: 10px 30px 10px 10px;
+}
 header#headerTop .navbar_menus ul.menus li.menu-items a.menu_anc{
     padding: 1rem 0;
 }
@@ -234,7 +237,7 @@ header#headerTop .navbar_menus ul.menus li.menu-items a.menu_anc:hover:after{
     left: 0;
     bottom: 0px;
     right: 0;
-    height: 2px;
+    height: 3px;
     background: #ff6d12;
     transform: scaleX(1);
     opacity: 1;
@@ -268,7 +271,80 @@ header#headerTop .navbar_menus ul.menus li.menu-items {
 }
 div#headermodal .modal-dialog {
     max-width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+div#headermodal .modal-dialog .modal-body {
     margin: auto;
+    width: 100%;
+    height: 80vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.signup_form select.form-control.form-control-lg {
+    height: calc(3.5rem + 2px) !important;
+    line-height: 40px;
+    border: 1px solid #00000052;
+    padding: 6px 14px;
+    margin: 2px 0px 0px 0px;
+    border-radius: 7px;
+}
+div#headermodal .modal-dialog .modal-body .form-group {
+    width: 100%;
+    display: flex;
+}
+div#headermodal .modal-dialog .modal-body input.form-control {
+    height: 60px;
+    border: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+div#headermodal .modal-dialog .modal-body .form-group button.btn {
+    border: 0;
+    background: #ff6d12;
+    color: #fff;
+    border-radius: 0;
+    width: 120px;
+    font-size: 18px;
+} .btn_close {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    font-size: 60px;
+    color: #fff;
+    z-index: 10;
+}
+.icon_close:before {
+    content: "\f00d";
+    font-family: 'FontAwesome';
+}
+ .btn_close:after {
+    content: "\f068";
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'FontAwesome';
+}
+ .btn_close:hover:before {
+    opacity: 0;
+    transition: all 0.3s;
+}
+ .btn_close:hover:after {
+    opacity: 1;
+    transition: all 0.3s;
+}
+div#headermodal .modal-content{
+background: transparent;
+}
+div#headermodal .modal-header{
+    border: 0;
 }
 div#headermodal .modal-header button.btn-close {
     border: 1px solid #ff6d12;
@@ -305,7 +381,7 @@ header#headerTop .navbar_menus ul.menus li button.btn:hover:before {
     left: 0;
     bottom: -5px;
     right: 0;
-    height: 2px;
+    height: 3px;
     background: #ff6d12;
     transform: scaleX(1);
     opacity: 1;
@@ -357,7 +433,8 @@ header#headerTop .navbar_menus ul.menus .dropdown-menu li {
         margin-top: 0;
         transition: 3s ease-in-out;
         position: absolute;
-        top: 0px;
+        top: 13px;
+
         left: 0px;
         will-change: transform;
         transform: translate3d(0px, 24px, 0px) ;
@@ -397,7 +474,19 @@ header#headerTop .navbar_menus ul.menus .dropdown-menu li {
 		/* position: static; */
 		z-index: 9;
 	}
-	
+	.open-accessibility {
+        position: fixed !important;
+        /* direction: rtl; */
+        z-index: 10;
+        left: 0 !important;
+        top: 0 !important;
+        min-width: 50px !important;
+        right: unset !important;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        /* user-select: none; */
+    }
 /* header css end here */
 
 /* universal section start here */
@@ -516,6 +605,12 @@ section.universal_sec {
     border-radius: 50%;
     padding: 1rem;
     font-size: 26px;
+    background-position-x: -60px;
+    transition: .30s all;
+    -webkit-transition: .30s all;
+    -moz-transition: .30s all;
+    -ms-transition: .30s all;
+    -o-transition: .30s all;
 }
 .banner_carousel .slick-next:before {
     content: "\f178 ";
@@ -524,18 +619,32 @@ section.universal_sec {
     border-radius: 50%;
     padding: 1rem;
     font-size: 26px;
+    background-position-x: 60px;
+    transition: .30s all;
+    -webkit-transition: .30s all;
+    -moz-transition: .30s all;
+    -ms-transition: .30s all;
+    -o-transition: .30s all;
 }
-.banner_carousel .slick-next:hover:before{
+.banner_carousel .slick-next:hover:before {
     /* content: ""; */
     background: url(../img/home/popularcause1.jpg);
-    background-size: cover;
+    background-size: 90px;
     padding: 1rem;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position-x: 0;
+    background-position-y: -1px;
 }
-.banner_carousel .slick-prev:hover:before{
+.banner_carousel .slick-prev:hover:before {
     /* content: ""; */
     background: url(../img/home/popularcause1.jpg);
-    background-size: cover;
+    background-size: 90px;
     padding: 1rem;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position-x: 0;
+    background-position-y: -1px;
 }
 .banner_carousel .slick-next{
     right: 13%;

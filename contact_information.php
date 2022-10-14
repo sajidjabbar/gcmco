@@ -72,9 +72,10 @@
                                     <div class="form-group my-1">
                                         <label for="phone_input">Phone</label>
                                         <label class="sr-only" for="phone_input">Phone</label>
-                                        <div class="input-group">
+                                        <!-- <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text">
+                                                <input id="phone" name="phone" type="tel">
                                                     <select class="custom-select mr-sm-2" id="input_select">
                                                         <option selected>Choose...</option>
                                                         <option value="US">US</option>
@@ -85,7 +86,8 @@
                                             </div>
                                             <input type="text" class="form-control" id="phone_input"
                                                 placeholder="12345678912">
-                                        </div>
+                                        </div> -->
+                                        <input type="tel" id="txtPhone" class="txtbox form-control" />
                                     </div>
                                 </div>
                             </div>
@@ -93,8 +95,7 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="inputcomment">Comment or Message *</label>
-                                        <textarea class="form-control" id="inputcomment"
-                                            rows="4"></textarea>
+                                        <textarea class="form-control" id="inputcomment" rows="5"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -104,6 +105,12 @@
                         </form>
                     </div>
                 </div>
+            </div>
+            <div class="contact_map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d510676.33010606916!2d35.269336!3d0.512308!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x178101ae37f9f535%3A0xe2db337df0fc0820!2sEldoret%2C%20Kenya!5e0!3m2!1sen!2sus!4v1665747540362!5m2!1sen!2sus"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>

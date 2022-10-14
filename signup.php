@@ -60,7 +60,7 @@
                                 </div>
                             </div>
                             <div class="button-group">
-                                <button type="submit" class="btn">Submit</button>
+                                <button type="submit" class="btn">Send</button>
                             </div>
                         </form>
                     </div>

@@ -20,6 +20,11 @@
 
 <!-- Wow Js CDN -->
 <script src="js/wow.min.js"></script>
+
+
+
+
+
 <script>
   const CurrentLocation = location.href;
   const drop_menu = document.querySelectorAll('.the_drop_menu');
@@ -246,3 +251,45 @@
   })();
 </script>
 <!--End of Tawk.to Script-->
+
+<!-- Accessibility Tools  start here-->
+<!-- <script src="floating-accessibility-tools/cdn/jquery.slim.min.js"></script> -->
+<!-- <script src="floating-accessibility-tools/dist/open-accessibility.min.js"></script> -->
+<!-- Optional -->
+<!-- <script src="floating-accessibility-tools/dist/locale.min.js"></script>
+<script>
+  $(function () {
+  $('.open-accessibility-text').openAccessibility({
+    localization: ['en']
+  });
+})
+
+</script> -->
+
+<!-- Accessibility Tools  end here-->
+<!-- input flags in the input field -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var code = "+1"; // Assigning value from model.
+            $('#txtPhone').val(code);
+            $('#txtPhone').intlTelInput({
+                autoHideDialCode: true,
+                autoPlaceholder: "ON",
+                dropdownContainer: document.body,
+                formatOnDisplay: true,
+                hiddenInput: "full_number",
+                initialCountry: "auto",
+                nationalMode: true,
+                placeholderNumberType: "MOBILE",
+                preferredCountries: ['US'],
+                separateDialCode: true
+            });
+            $('#btnSubmit').on('click', function () {
+                var code = $("#txtPhone").intlTelInput("getSelectedCountryData").dialCode;
+                var phoneNumber = $('#txtPhone').val();
+                var name = $("#txtPhone").intlTelInput("getSelectedCountryData").name;
+                alert('Country Code : ' + code + '\nPhone Number : ' + phoneNumber + '\nCountry Name : ' + name);
+            });
+        });
+    </script>

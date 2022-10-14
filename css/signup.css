@@ -14,7 +14,7 @@ section.universal_sec {
     font-family: "";
     font-family: "roboto_b", Sans-serif;
 }
-.signup_form .button-group .btn {
+/* .signup_form .button-group .btn {
     background-color: #FF6D12;
     padding: 10px 30px;
     color: #fff;
@@ -22,6 +22,13 @@ section.universal_sec {
     transition: 0.6s;
     width: 100%;
     font-family: "roboto_m";
+} */
+.signup_form .button-group .btn{
+    background-color: #eee;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 1em;
+    padding: 10px 15px;
 }
 .signup_form .button-group .btn:hover{
     background-color: #2c2734;

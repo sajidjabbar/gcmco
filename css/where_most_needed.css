@@ -142,6 +142,12 @@ section.where_most_sec .black_select .black_box label .boxx span input[type="tex
     font-family: "roboto_m";
     font-size: 18px;
 }
+.where_most_sec .form_start .form-control.texts_area {
+    height: calc(5.5rem + 2px);
+}
+.where_most_sec .form_start .form-control::placeholder{
+    color: #7A7A7A;
+}
 .where_most_sec .form_start .form-group label {
     color: #7a7a7a;
     font-size: 19px;
@@ -165,7 +171,9 @@ section.where_most_sec {
 section.where_most_need_page .where_most_content .black_select .col-md-4 {
     padding: 1px !important;
 }
-
+.where_most_sec .form_start .input-group-prepend .input-group-text i {
+    font-size: 20px;
+}
 
 
 /* section women distress start here */
