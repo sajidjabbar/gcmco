@@ -230,7 +230,7 @@
             <div class="christnamecontent">
                 <a href="giveus_form.php">
                     <figure>
-                        <img src="img/home/popularcause1.jpg" class="img-fluid" alt="">
+                        <img src="img/home/popularcause6.jpg" class="img-fluid" alt="">
                     </figure>
                 </a>
                 <div class="button-group">
@@ -393,7 +393,7 @@
                     a place to belong for those who long to have a church family.
 
                 </p>
-                <h3 class="name thrid_font">- Faith Aoko </h3>
+                <h3 class="name thrid_font"> - Nellus wanjiru </h3>
                 <div class="avatar">
                     <div class="client">
                         <img src="img/home/changelive1.png" class="img-fluid" alt="">
@@ -408,7 +408,7 @@
                     Great Commission Ministries has come alongside me and helped me raise my son, and has also provided
                     means for me to be able to provide for him.
                 </p>
-                <h3 class="name thrid_font">- Nellus wanjiru</h3>
+                <h3 class="name thrid_font">- Faith Aoko</h3>
                 <div class="avatar">
                     <div class="client">
                         <img src="img/home/changelive2.png" class="img-fluid" alt="">
@@ -439,7 +439,7 @@
                 <h3 class="name thrid_font">- Noel Minayo</h3>
                 <div class="avatar">
                     <div class="client">
-                        <img src="img/home/changelive3.png" class="img-fluid" alt="">
+                        <img src="img/home/changelive4.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>

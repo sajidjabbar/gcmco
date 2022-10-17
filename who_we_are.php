@@ -206,80 +206,74 @@
         </section>
         <!-- help the people section end here -->
         <!-- section 6th changed Lives start herer-->
-        <section class="change_live_sec 6th_sec">
-            <div class="container">
-                <hr class="black_liner">
-                <div class="changelive_tophead">
-                    <h4 class="orange_heading">Changed Lives</h4>
-                    <h2 class="heading1">What They Say</h2>
-                </div>
-                <div class="changelivecarousel">
-                    <div class="change_content">
-                        <p class="quote">“</p>
-                        <p class="evaluate para_txt2">
-                            They have built a comfortable and welcoming environment for people who desire to know God,
-                            and also
-                            a place to belong for those who long to have a church family.
+<section class="change_live_sec 6th_sec">
+    <div class="container">
+        <div class="changelive_tophead">
+            <h4 class="orange_heading">Changed Lives</h4>
+            <h2 class="heading1">What They Say</h2>
+        </div>
+        <div class="changelivecarousel">
+            <div class="change_content">
+                <p class="quote">“</p>
+                <p class="evaluate para_txt2">
+                    They have built a comfortable and welcoming environment for people who desire to know God, and also
+                    a place to belong for those who long to have a church family.
 
-                        </p>
-                        <h3 class="name thrid_font">- Faith Aoko </h3>
-                        <div class="avatar">
-                            <div class="client">
-                                <img src="img/home/changelive1.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="change_content">
-                        <p class="quote">“</p>
-                        <p class="evaluate para_txt2">
-                            I was taught the truth of the gospel, not by words only, but lived out in the lives
-                            of everyone around me.
-                            Great Commission Ministries has come alongside me and helped me raise my son, and has also
-                            provided
-                            means for me to be able to provide for him.
-                        </p>
-                        <h3 class="name thrid_font">- Nellus wanjiru</h3>
-                        <div class="avatar">
-                            <div class="client">
-                                <img src="img/home/changelive2.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="change_content">
-                        <p class="quote">“</p>
-                        <p class="evaluate para_txt2">
-                            I am Thankful to our lord Jesus Christ for the time I have been in the ministry of GCM. The
-                            mentorship I have received through the word of God and being molded to be the man I ought to
-                            be in
-                            Christ Jesus, Being discipled to represent Christ in all aspects of my life and to preach
-                            the word
-                            in my day to day life.
-                        </p>
-                        <h3 class="name thrid_font">- Collince Ochieng</h3>
-                        <div class="avatar">
-                            <div class="client">
-                                <img src="img/home/changelive3.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="change_content">
-                        <p class="quote">“</p>
-                        <p class="evaluate para_txt2">
-                            The word of God has come alive in my life. I have began to understand grace and the love of
-                            God. I
-                            am thankful to God for GCM.
-                        </p>
-                        <h3 class="name thrid_font">- Noel Minayo</h3>
-                        <div class="avatar">
-                            <div class="client">
-                                <img src="img/home/changelive3.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
+                </p>
+                <h3 class="name thrid_font"> - Nellus wanjiru </h3>
+                <div class="avatar">
+                    <div class="client">
+                        <img src="img/home/changelive1.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- section 6th changed Lives end herer-->
+            <div class="change_content">
+                <p class="quote">“</p>
+                <p class="evaluate para_txt2">
+                    I was taught the truth of the gospel, not by words only, but lived out in the lives
+                    of everyone around me.
+                    Great Commission Ministries has come alongside me and helped me raise my son, and has also provided
+                    means for me to be able to provide for him.
+                </p>
+                <h3 class="name thrid_font">- Faith Aoko</h3>
+                <div class="avatar">
+                    <div class="client">
+                        <img src="img/home/changelive2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="change_content">
+                <p class="quote">“</p>
+                <p class="evaluate para_txt2">
+                    I am Thankful to our lord Jesus Christ for the time I have been in the ministry of GCM. The
+                    mentorship I have received through the word of God and being molded to be the man I ought to be in
+                    Christ Jesus, Being discipled to represent Christ in all aspects of my life and to preach the word
+                    in my day to day life.
+                </p>
+                <h3 class="name thrid_font">- Collince Ochieng</h3>
+                <div class="avatar">
+                    <div class="client">
+                        <img src="img/home/changelive3.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="change_content">
+                <p class="quote">“</p>
+                <p class="evaluate para_txt2">
+                    The word of God has come alive in my life. I have began to understand grace and the love of God. I
+                    am thankful to God for GCM.
+                </p>
+                <h3 class="name thrid_font">- Noel Minayo</h3>
+                <div class="avatar">
+                    <div class="client">
+                        <img src="img/home/changelive4.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section 6th changed Lives end herer-->
     </section>
 </section>
 <!-- who we are section end here -->

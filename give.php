@@ -123,7 +123,7 @@
                 <div class="christnamecontent">
                     <a href="giveus_form.php">
                         <figure>
-                            <img src="img/home/popularcause1.jpg" class="img-fluid" alt="">
+                            <img src="img/home/popularcause6.jpg" class="img-fluid" alt="">
                         </figure>
                     </a>
                     <div class="button-group">
