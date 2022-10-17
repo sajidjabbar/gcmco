@@ -68,7 +68,7 @@ section.where_most_sec input.all_package:checked + label .boxx {
     font-family: "roboto_b";
 }
 .where_most_content {
-    padding: 0px 100px 0px 100px;
+    padding: 0px 100px 30px 100px;
     background: #fff;
 }
 .black_select {
@@ -174,7 +174,9 @@ section.where_most_need_page .where_most_content .black_select .col-md-4 {
 .where_most_sec .form_start .input-group-prepend .input-group-text i {
     font-size: 20px;
 }
-
+.label_select_btn {
+    margin-bottom: 1rem;
+}
 
 /* section women distress start here */
 section.where_most_sec p.para_txt2 {

@@ -21,9 +21,9 @@
                         </p>
                     </div>
                     <ul class="social_icons">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></li>
+                        <li><a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fab fa-instagram"></i></a>
                         </li>
                     </ul>
                     <!-- <p>SEIS and EIS Advance Assurance Status</p> -->

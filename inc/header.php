@@ -74,7 +74,7 @@
                                                 Articles</a></li>
                                         <li><a class="dropdown-item the_drop_menu" href="gallery.php">Photo Gallery</a>
                                         </li>
-                                        <li><a class="dropdown-item the_drop_menu" href="#">Videos</a></li>
+                                        <li><a class="dropdown-item the_drop_menu" href="video.php">Videos</a></li>
                                     </ul>
                                 </div>
                             </li>

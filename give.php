@@ -145,7 +145,7 @@
     <section class="sec_bot_link">
         <div class="container">
             <div>
-                <a href="getinvolved.php"> To learn more visit our Get involved page</a>
+                <a href="get_involved.php"> To learn more visit our Get involved page</a>
             </div>
         </div>
     </section>

@@ -374,7 +374,7 @@
                 </div>
             </div>
         </div>
-        <hr class="black_liner mt-5">
+        <hr class="black_liner mt-3">
     </div>
 </section>
 <!-- section fifth ask question end here -->
@@ -488,7 +488,7 @@
                                 </a>
                             </div>
                             <div class="product_desc">
-                                <a href="#">
+                                <a href="news_article_detail.php">
                                     <p class="para_txt2">
 
                                         WE TOLD THEM TO COME OUT OF THE CHURCH, BUT THEY LOCKED THE DOOR…SO WE BURNED
@@ -510,7 +510,7 @@
                                 </a>
                             </div>
                             <div class="product_desc">
-                                <a href="#">
+                                <a href="news_article_detail.php">
                                     <p class="para_txt2">
                                         WE TOLD THEM TO COME OUT OF THE CHURCH, BUT THEY LOCKED THE DOOR…SO WE BURNED
                                         THEM </p>

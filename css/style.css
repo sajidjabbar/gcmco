@@ -50,7 +50,7 @@ h1 {
 	list-style: 121px;
 }
 h2 {
-	font-family: "robotoslab";
+	font-family: "robotoslab" !important;
 	font-size: 56px;
 	font-weight: 600;
 	line-height: 66px;
@@ -701,9 +701,12 @@ font-size: 17px;
 }
 /* helping today section end here */
 /* in christ name section start here */
+section.christ_sec.third_sec h2.heading2 {
+    margin-top: 0;
+}
 h2.heading2 {
     color: #000000;
-    font-family: "Roboto", Sans-serif;
+    font-family: "roboto_m", Sans-serif !important;
     font-size: 50px;
     font-weight: 600;
 }
@@ -722,6 +725,7 @@ h2.heading2 {
 .christnamecontent .para_text2 a p {
     font-size: 24px;
     color: #000;
+    font-family: "roboto_m";
 }
 .christnamecontent .para_text2 a{
 	text-decoration: none;
@@ -757,6 +761,7 @@ section.fourth_sec.headlthy_section h2.heading1 {
 }
  hr.black_liner {
     background: #000;
+    border-top: 1px solid #000;
 }
 .healthy_leftside {
     padding-right: 4rem;
@@ -859,6 +864,9 @@ section.fifth_sec.ask_ques_sec .accordion-item .accordion-header button.accordio
     right: 2px;
     width: 410px;
     line-height: 1;
+}
+.bot_orange_dv figure {
+    margin-bottom: 0;
 }
 .ask_ques_right {
     position: relative;

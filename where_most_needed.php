@@ -22,7 +22,7 @@
                 <p>
                     Great Commission Ministries is a 501©(3) tax-exempt charity.
                 </p>
-                <div class="text-center">
+                <div class="text-center label_select_btn">
                     <input type="radio" name="the_package" hidden class="all_package" id="no1" checked>
                     <label for="no1">
                         <div class="boxx">
