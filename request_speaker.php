@@ -80,7 +80,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="request_zipcode">
+                                <input type="text" class="form-control" id="request_zipcode" placeholder="ZIP / Postal" value="">
                                 <label for="contact_input" class="text_label">Zip Code</label>
                             </div>
                         </div>

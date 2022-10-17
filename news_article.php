@@ -38,12 +38,12 @@
                             <div class="col-md-4">
                                 <div class="product-sec">
                                     <div class="product-img">
-                                        <a href="#">
+                                        <a href="news_article_detail.php">
                                             <img class="img-fluid" src="img/home/homenewsarticles1.jpg" alt="">
                                         </a>
                                     </div>
                                     <div class="product_desc">
-                                        <a href="#">
+                                        <a href="news_article_detail.php">
                                             <p class="para_txt2">
 
                                                 WE TOLD THEM TO COME OUT OF THE CHURCH, BUT THEY LOCKED THE DOOR…SO WE
@@ -61,12 +61,12 @@
                             <div class="col-md-4">
                                 <div class="product-sec">
                                     <div class="product-img">
-                                        <a href="#">
+                                        <a href="news_article_detail.php">
                                             <img class="img-fluid" src="img/home/homenewsarticles2.jpg" alt="">
                                         </a>
                                     </div>
                                     <div class="product_desc">
-                                        <a href="#">
+                                        <a href="news_article_detail.php">
                                             <p class="para_txt2">
                                                 WE TOLD THEM TO COME OUT OF THE CHURCH, BUT THEY LOCKED THE DOOR…SO WE
                                                 BURNED
