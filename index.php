@@ -11,7 +11,7 @@
             <div class="banner_carousel">
                 <div class="banner_single">
                     <figure>
-                        <img src="img/home/popularcause1.jpg" class="img-fluid" alt="">
+                        <img src="img/home/banner_first0.jpg" class="img-fluid" alt="">
                     </figure>
                     <div class="banner_content">
                         <p>Helping Them Today</p>
@@ -20,7 +20,7 @@
                 </div>
                 <div class="banner_single">
                     <figure>
-                        <img src="img/home/banner_first1.jpg" class="img-fluid" alt="">
+                        <img src="img/home/banner_first11.jpg" class="img-fluid" alt="">
                     </figure>
                     <div class="banner_content">
                         <p>Helping Them Today</p>
@@ -29,14 +29,14 @@
                 </div>
                 <div class="banner_single">
                     <figure>
-                        <img src="img/home/banner_first2.jpg" class="img-fluid" alt="">
+                        <img src="img/sponsor/sponsor1.webp" class="img-fluid" alt="">
                     </figure>
                     <div class="banner_content">
                         <p>Helping Them Today</p>
                         <h1>Helping in christ's Name in Christ's way</h1>
                     </div>
                 </div>
-                <div class="banner_single">
+                <!-- <div class="banner_single">
                     <figure>
                         <img src="img/home/banner_first3.jpg" class="img-fluid" alt="">
                     </figure>
@@ -71,7 +71,7 @@
                         <p>Helping Them Today</p>
                         <h1>Helping in christ's Name in Christ's way</h1>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="banner_nav">
 
